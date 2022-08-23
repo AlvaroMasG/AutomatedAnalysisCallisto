@@ -1,9 +1,12 @@
-#Automated Analysis-Callisto
-**Description:** It is a series of programs for downloading and analyzing e-Callisto data in search of solar bursts.
-**Installation:** Move to the directory where you have downloaded this repository, move to Data_extraction directory, open a terminal/cmd and run ` pip install -r requirements.txt`
-**Contributors:** The main collaborator in this project is Álvaro Mas. However, the programs for data download belong to Carlos Yanguas and Mario Fernández available at https://github.com/c-yanguas/Menu-Callisto
+# Automated Analysis-Callisto
+### Description:
+It is a series of programs for downloading and analyzing e-Callisto data in search of solar bursts.
+### Installation:
+Move to the directory where you have downloaded this repository, move to Data_extraction directory, open a terminal/cmd and run ` pip install -r requirements.txt`
+### Contributors:
+The main collaborator in this project is Álvaro Mas. However, the programs for data download belong to Carlos Yanguas and Mario Fernández available at https://github.com/c-yanguas/Menu-Callisto
 
-##Steps to follow-Callisto
+## Steps to follow-Callisto
 - First, the programs 'BurstDownloader.py', 'CallistoDownloader.py', 'utils.py' and 'main.py' will be used.
 - Running 'main.py' will display a menu for downloading and the following instructions must be followed:
 1. Please select one of th following options: "3".
@@ -18,13 +21,13 @@
 - The 'cleanBurstData.py' script should be run to remove any corrupt or faulty files.
 - To analyze the files, the script 'extractBurstData.py' must be run and the result of this analysis can be found in the Excel file 'BurstData.xlsx' in the 'Data' folder.
 
-##Steps to follow-NOAA
+## Steps to follow-NOAA
 To perform a statistical analysis, it is useful to cross-reference data from another data source. In this case it has been facilitated to be able to use the NOAA network.
 - To download files from the NOAA network is via FTP protocol.
 - Once the files have been downloaded, move the text files to the 'NOAAtxt' folder under 'Data' .
 - To analyze the NOAA network files, you must run the script 'extractNOAA.py' and the result of this analysis can be found in the Excel file 'BurstData.xlsx' in the 'Data' folder.
 
-##Parameters of results
+## Parameters of results
 As discussed above, the result of the file analysis is found in the Excel file 'BurstData.xlsx' in the 'Data' folder. This analysis divides the solar bursts found in 17 sections:
 - From: indicates to which network it belongs whether to e-CALLISTO or NOAA.
 - Station: indicates which station it belongs to.
